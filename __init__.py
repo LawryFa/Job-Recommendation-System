@@ -6,7 +6,7 @@ from sklearn.neighbors import NearestNeighbors
 from src.components.job_recommender import ngrams,getNearestN,jd_df
 import src.notebook.skills_extraction as skills_extraction
 from sklearn.feature_extraction.text import TfidfVectorizer
-
+import nltk
 
 # Function to process the resume and recommend jobs
 def process_resume(file_path):
